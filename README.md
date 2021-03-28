@@ -1,1 +1,1 @@
-# Compress-o-de-Arquivos---Codifica-o-de-Huffman
+# Compressão de Arquivos - Codificação de Huffman
