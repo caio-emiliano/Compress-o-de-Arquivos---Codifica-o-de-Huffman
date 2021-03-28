@@ -1,0 +1,9 @@
+Para Executar o Programa:
+./main -c in.txt out.txt
+				ou
+./main -d in.txt out.txt
+
+Obs: "-c" e "-d" são os parâmetros de identificação para comprimir e descomprimir, respectivamente
+
+Obs: o nome dos arquivos de entrada e saída (in.txt e out.txt) podem ser modificados e especificados no comando de execução do programa
+Ex: ./huffman_main -c modifica.txt parametro.txt
