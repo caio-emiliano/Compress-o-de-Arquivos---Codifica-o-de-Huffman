@@ -18,4 +18,35 @@ O método de codificação de Huffman consiste em um algoritmo de compressão de
 
 ## Exemplo de Codificação
 
-Como exemplo de codificação e montagem da árvore de Huffman usaremos a sequinte sequência de caracteres: AAAAAABBBBBCCCCDDDEEF. Como primeiro passo do algoritmo, precisamos obter a frequência de cada caracter. Assim temos: 
+Como exemplo de codificação e montagem da árvore de Huffman usaremos a sequinte sequência de caracteres: **AAAAAABBBBBCCCCDDDEEF**. Como primeiro passo do algoritmo, precisamos obter a frequência de cada caracter. Assim temos: 
+
+<img src="https://github.com/caio-emiliano/Huffman-Compression/blob/main/Images/example_figure1.png">
+
+O próximo passo é construirmos a árvore de Huffman. Para isso, basta escolhermos 2 nós de nosso domínio (neste caso representado pelos símbolos A, B, C, D, E e F) e uni-los. Na figura abaixo pode-se observar a representação desta etapa.
+
+Fig2
+
+Ao unirmos os nós E e F, criamos um nó pai cujo peso é a soma dos pesos dos filhos. Este novo nó é inserido no domínio de nós a serem unidos. Assim o processo se repetirá (agora unindo os nós D e E+F).
+
+Fig3
+
+Continuando o processo temos:
+
+Fig4
+
+Fig5
+
+Por fim temos a última união, que será dos nós A+D+E+F com o nó B+C.
+
+Fig6
+
+Assim, gerando nossa árvore de Huffman que agora é uma árvore estritamente binária:
+
+Fig7
+
+Ao observamos as arestas da árvore, podemos perceber que cada caminho para um nó corresponde a seu código. Abaixo listamos os códigos Huffman para cada um dos símbolos que usamos:
+
+Fig 8
+
+Agora, ao codificarmos a nossa sequência original temos: 000000000000101010101011111111010010010011001100111 totalizando apenas 51 bits. A nossa compressão foi de 12 bits, ou cerca de 20% (dado que a sequência ogirinal possuia 63 bits).
+
