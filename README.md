@@ -4,6 +4,6 @@
 
 <img src="https://github.com/caio-emiliano/Huffman-Compression/blob/main/Images/compressao.png">
 
-<p> Devido a sua grande utilizade, técnicas de compressão de dados são amplamente utilizadas. Diversas extensões de arquivos famosas, como pdf (textos, e-books), mp3 (áudio, músicas), gif (imagens, fotos), zip (arquivos em geral), mpg (vídeos), utilizam algoritmos de compactação em suas concepções.  </p>
+<p> Devido a sua grande utilizade, técnicas de compressão de dados são amplamente utilizadas. Diversas extensões de arquivos famosas, como **pdf** (textos, e-books), **mp3** (áudio, músicas), **gif** (imagens, fotos), **zip** (arquivos em geral), **mpg** (vídeos), utilizam algoritmos de compactação em suas concepções.  </p>
 
 
