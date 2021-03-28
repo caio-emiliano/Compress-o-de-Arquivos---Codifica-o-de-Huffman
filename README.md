@@ -46,7 +46,7 @@ Assim, gerando nossa árvore de Huffman que agora é uma árvore estritamente bi
 
 Ao observamos as arestas da árvore, podemos perceber que cada caminho para um nó corresponde a seu código. Abaixo listamos os códigos Huffman para cada um dos símbolos que usamos:
 
-<img src="https://github.com/caio-emiliano/Huffman-Compression/blob/main/Images/example_figure8.png>
+<img src="https://github.com/caio-emiliano/Huffman-Compression/blob/main/Images/example_figure8.png">
 
 Agora, ao codificarmos a nossa sequência original temos: 000000000000101010101011111111010010010011001100111 totalizando apenas 51 bits. A nossa compressão foi de 12 bits, ou cerca de 20% (dado que a sequência ogirinal possuia 63 bits).
 
