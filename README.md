@@ -14,5 +14,8 @@ Diante disso, inúmeros algoritmos de compressão existem: Codificação de Huff
 
 O método de codificação de Huffman consiste em um algoritmo de compressão de dados que usa as probabilidades de ocorrência dos símbolos no conjunto de dados a ser comprimido para determinar códigos de tamanho variável para cada símbolo. Desenvolvido em 1952 por David A. Huffman, utiliza uma árvore binária completa, chamada de árvore de Huffman e, é construída recursivamente a partir da junção dos dois símbolos de menor probabilidade, que são então somados em símbolos auxiliares e estes símbolos auxiliares recolocados no conjunto de símbolos. O processo termina quando todos os símbolos forem unidos em símbolos auxiliares, formando uma árvore binária. A árvore é então percorrida, atribuindo-se valores binários de 1 ou 0 para cada aresta, e os códigos são gerados a partir desse percurso.
 
+<img src="https://github.com/caio-emiliano/Huffman-Compression/blob/main/Images/huffman-example.png">
 
+## Exemplo de Codificação
 
+Como exemplo de codificação e montagem da árvore de Huffman usaremos a sequinte sequência de caracteres: AAAAAABBBBBCCCCDDDEEF. Como primeiro passo do algoritmo, precisamos obter a frequência de cada caracter. Assim temos: 
